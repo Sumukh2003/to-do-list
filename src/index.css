@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(66, 66, 66);
+}
+.to-Do{
+text-align: center;
+margin-top: 75px;
+
+}
+h1{
+color:white;
+font-size: 4rem;
+}
+button{
+    font-size:1.5rem;
+    padding:5px 10px;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.add-btn{
+    background-color: rgb(82, 146, 249);
+}
+.delete-btn{
+background-color: rgb(246, 40, 40);
+}
+.edit-btn{
+    background-color: rgb(252, 127, 2);
+}
+.save-btn{
+    background-color: rgb(139, 245, 41);
+}
+input[type="text"]{
+    font-size: 1.4rem;
+    padding:7px;
+    border-radius: 5px;
+    border:2px solid rgb(35, 11, 11); 
+}
+ol{
+    padding:0;
+}
+li{
+   
+    display: inline-block;
+    width:50%;
+    font-size:2rem;
+    margin: 10px auto;
+    font-weight: bold;
+    padding:10px;
+    background-color:rgb(213, 213, 213);
+    margin-bottom:7px;
+    border-radius: 5px;
+    border:2px solid rgb(204, 203, 203);
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex:1;
+}
+.delete-btn, .edit-btn, .add-btn, .save-btn{
+    padding:7px;
+    margin-left: 10px;
+}
